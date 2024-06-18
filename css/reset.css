@@ -65,9 +65,11 @@ h6 {
 #__next {
   isolation: isolate;
 }
-body {
-  max-width: 1550px;
+body,
+main {
+  max-width: 1250px;
   margin: auto;
+  background-color: #efefef;
 }
 
 ul {
