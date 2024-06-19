@@ -5,64 +5,47 @@ include "./includes/header.php"
 ?>
 
 <main>
-  <div class="hero">
-    <div class="hero_info">
-      <h3 class="hero_title">Grease: The Musical</h3>
-      <p class="hero_date">Tue 15 June - Sat 22 June</p>
-      <p class="hero_btns flex"><button class="btn"><span>Info</span></button><button class="btn main_btn">Tickets</button></p>
+  <section aria-label="Newest Shows">
+    <div class="carousel" data-carousel>
+      <button class="carousel_btn prev" data-carousel-button="prev"> &#8656;</button>
+      <button class="carousel_btn next" data-carousel-button="next"> &#8658;</button>
+      <ul data-slides>
+        <li class="slide" data-active>
+          <div class="hero_container">
+            <img src="../../assets/images/hero.png" alt="An image of grease the musical">
+            <div class="hero_info">
+              <h3>Grease: The Musical</h3>
+              <p>Tue 15th June - Sat 22nd June</p>
+              <div class="btn_container">
+                <button class="btn main_btn">Book</button>
+                <button class="btn">Info</button>
+              </div>
+            </div>
+          </div>
+
+        </li>
+        <li class="slide">
+          <img src="" alt="">
+        </li>
+        <li class="slide">
+          <img src="../../assets/images/hero.png" alt="">
+        </li>
+        <li class="slide">
+          <img src="../../assets/images/hero.png" alt="">
+        </li>
+        <li class="slide">
+          <img src="../../assets/images/hero.png" alt="">
+        </li>
+        <li class="slide">
+          <img src="../../assets/images/hero.png" alt="">
+        </li>
+      </ul>
     </div>
-  </div>
-
-  <div class="carousel">
-    <div class="show_slide flex">
-      <div class="show_container">
-        <img class="show_img" src="../../assets/shows/r&j.png" alt="Rome and Julet show image">
-        <div class="show_txt_container">
-          <p class="show_title">Romeo & Juliet</p>
-          <p class="show_book">Book Now</p>
-        </div>
-      </div>
-      <div class="show_container">
-        <img class="show_img" src="../../assets/shows/r&j.png" alt="Rome and Julet show image">
-        <div class="show_txt_container">
-          <p class="show_title">Romeo & Juliet</p>
-          <p class="show_book">Book Now</p>
-        </div>
-      </div>
-      <div class="show_container">
-        <img class="show_img" src="../../assets/shows/r&j.png" alt="Rome and Julet show image">
-        <div class="show_txt_container">
-          <p class="show_title">Romeo & Juliet</p>
-          <p class="show_book">Book Now</p>
-        </div>
-      </div>
-      <div class="show_container">
-        <img class="show_img" src="../../assets/shows/r&j.png" alt="Rome and Julet show image">
-        <div class="show_txt_container">
-          <p class="show_title">Romeo & Juliet</p>
-          <p class="show_book">Book Now</p>
-        </div>
-      </div>
-      <div class="show_container">
-        <img class="show_img" src="../../assets/shows/r&j.png" alt="Rome and Julet show image">
-        <div class="show_txt_container">
-          <p class="show_title">Romeo & Juliet</p>
-          <p class="show_book">Book Now</p>
-        </div>
-      </div>
-      <div class="show_container">
-        <img class="show_img" src="../../assets/shows/r&j.png" alt="Rome and Julet show image">
-        <div class="show_txt_container">
-          <p class="show_title">Romeo & Juliet</p>
-          <p class="show_book">Book Now</p>
-        </div>
-      </div>
-    </div>
-
-  </div>
-
+  </section>
 </main>
 
+<script src="../../js/mobileMenu.js"></script>
+<script src="../../js/carousel.js"></script>
 </body>
 
 </html>

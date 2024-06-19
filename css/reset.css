@@ -32,7 +32,7 @@ video,
 canvas,
 svg {
   display: block;
-  max-width: 100%;
+  width: 100%;
 }
 
 /*
@@ -67,7 +67,7 @@ h6 {
 }
 body,
 main {
-  max-width: 1250px;
+  max-width: 1450px;
   margin: auto;
   background-color: #efefef;
 }

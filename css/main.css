@@ -15,7 +15,7 @@ body {
 }
 
 .header {
-  margin-top: 20px;
+  margin: 20px 15px;
   font-size: 1rem;
 }
 
@@ -63,67 +63,62 @@ body {
 }
 
 .hero {
-  position: relative;
-
   background: url("../assets/images/hero.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
   margin-top: 20px;
   min-height: 650px;
 }
 
-.hero_info {
-  z-index: 99;
-  background-color: white;
-  max-width: fit-content;
-  padding: 25px 40px;
-
-  position: absolute;
+.burger_container {
+  display: none;
+  position: fixed;
+  top: 30px;
   right: 10%;
-  top: 35%;
+  z-index: 4;
+}
+
+.hero_container {
+  position: relative;
+}
+.hero_info {
+  position: absolute;
+  top: 30%;
+  right: 20%;
+  background-color: white;
+  padding: 15px 10px;
   line-height: 2;
 }
 
-.hero_btns {
-  gap: 15px;
-}
-
-.carousel {
-  margin-top: -60px;
-  margin-inline: 10px;
-  white-space: nowrap;
-  animation: 5s scroll infinite linear;
-}
-
-.slide_show {
-  justify-content: space-around;
-  display: inline-block;
-}
-
-.show_container {
-  position: relative;
-  -webkit-box-shadow: 7px 11px 20px -6px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 7px 11px 20px -6px rgba(0, 0, 0, 0.75);
-  box-shadow: 7px 11px 20px -6px rgba(0, 0, 0, 0.75);
-}
-
-.show_txt_container {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  top: 50%;
-  right: 50%;
-  transform: translate(50%, -50%);
-  color: white;
-  text-align: center;
-}
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
+@media screen and (max-width: 850px) {
+  .mobileMenu {
+    flex-direction: column;
+    background-color: beige;
+    padding: 10px 0;
+    width: 75%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 3;
+    font-size: larger;
+    transition: 300ms ease-in-out;
   }
-  100% {
-    transform: translateX(calc(-250px * 7));
+
+  .burger_container {
+    display: block;
+  }
+  .toggle {
+    right: -100%;
+  }
+
+  .nav {
+    flex-direction: column;
+    margin: 20px 0;
+  }
+
+  body {
+    margin-top: 75px;
   }
 }
