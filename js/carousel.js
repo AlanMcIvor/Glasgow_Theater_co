@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Start the auto-play
   autoPlayInterval = setInterval(nextSlide, intervalTime);
 
-  // Optional: Stop auto-play on hover and restart on mouse leave
+  //Stop auto-play on hover and restart on mouse leave
   const carousel = document.querySelector(".carousel");
   carousel.addEventListener("mouseover", () => {
     clearInterval(autoPlayInterval);
