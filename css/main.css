@@ -154,4 +154,19 @@ body {
     min-width: 100%;
     margin: 25px;
   }
+
+  .hero_info {
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    width: fit-content;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .hero_info > button {
+    padding: 0;
+    width: fit-content;
+    margin-top: 5px;
+  }
 }
