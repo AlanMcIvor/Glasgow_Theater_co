@@ -65,11 +65,10 @@ h6 {
 #__next {
   isolation: isolate;
 }
-body,
-main {
+
+.wrapper {
   max-width: 1450px;
   margin: auto;
-  background-color: #efefef;
   overflow-x: hidden;
 }
 

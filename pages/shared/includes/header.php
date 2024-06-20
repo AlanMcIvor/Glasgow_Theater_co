@@ -20,7 +20,7 @@
 
 <body>
   <header class="header">
-    <nav class="navbar gutter flex mobileMenu toggle">
+    <nav class="navbar wrapper flex mobileMenu toggle">
       <div class="logo">
         <img src="../../assets/icons/logo.png" alt="The glasgow theater company logo" />
       </div>

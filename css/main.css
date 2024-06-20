@@ -118,6 +118,29 @@ body {
   padding: 5px;
 }
 
+.footer {
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  height: 300px;
+  color: white;
+  background-color: black;
+  font-size: 1rem;
+}
+
+.footer_left {
+  flex-direction: column;
+  max-width: 250px;
+}
+
+.footer_title {
+  color: var(--accent);
+}
+
+.footer_link {
+  color: rgb(233, 233, 233);
+}
+
 @media screen and (max-width: 850px) {
   .mobileMenu {
     flex-direction: column;
