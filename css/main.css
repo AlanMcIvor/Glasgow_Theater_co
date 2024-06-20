@@ -107,11 +107,15 @@ body {
   flex-wrap: wrap;
 }
 
+.news_img {
+  margin-bottom: 10px;
+}
+
 .news_card {
   max-width: 450px;
   min-width: 350px;
-  border: 1px solid black;
   margin-top: 25px;
+  padding: 5px;
 }
 
 @media screen and (max-width: 850px) {

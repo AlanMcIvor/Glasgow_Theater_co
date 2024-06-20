@@ -101,37 +101,48 @@ include "./includes/header.php"
     <div class="news_container flex">
       <div class="news_card">
         <div class="news_img"><img src="../../assets/images/hero.png" alt=""></div>
-        <div class="news_content">
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit dolore obcaecati iusto similique repellendus quo autem in facilis vitae quidem labore modi est voluptas culpa provident soluta laborum dolorum, atque quasi sit harum sed alias suscipit minima? Dolor eaque iure delectus voluptatibus iste nihil tempore.</p>
+        <div class="news_text">
+          <div class="news_content">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit dolore obcaecati iusto similique repellendus quo autem in facilis vitae quidem labore modi est voluptas culpa provident soluta laborum dolorum, atque quasi sit harum sed alias suscipit minima? Dolor eaque iure delectus voluptatibus iste nihil tempore.</p>
+          </div>
+          <div class="flex">
+            <div class="date">
+              <p>24 June 2024</p>
+            </div>
+            <div class="see_more btn main_btn">See More</div>
+          </div>
         </div>
-        <div class="date">
-          <p>24 June 2024</p>
-        </div>
-        <div class="see_more btn main_btn">See More</div>
       </div>
 
       <div class="news_card">
         <div class="news_img"><img src="../../assets/images/hero.png" alt=""></div>
-        <div class="news_content">
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit dolore obcaecati iusto similique repellendus quo autem in facilis vitae quidem labore modi est voluptas culpa provident soluta laborum dolorum, atque quasi sit harum sed alias suscipit minima? Dolor eaque iure delectus voluptatibus iste nihil tempore.</p>
+        <div class="news_text">
+          <div class="news_content">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit dolore obcaecati iusto similique repellendus quo autem in facilis vitae quidem labore modi est voluptas culpa provident soluta laborum dolorum, atque quasi sit harum sed alias suscipit minima? Dolor eaque iure delectus voluptatibus iste nihil tempore.</p>
+          </div>
+          <div class="flex">
+            <div class="date">
+              <p>24 June 2024</p>
+            </div>
+            <div class="see_more btn main_btn">See More</div>
+          </div>
         </div>
-        <div class="date">
-          <p>24 June 2024</p>
-        </div>
-        <div class="see_more btn main_btn">See More</div>
       </div>
 
       <div class="news_card">
         <div class="news_img"><img src="../../assets/images/hero.png" alt=""></div>
-        <div class="news_content">
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit dolore obcaecati iusto similique repellendus quo autem in facilis vitae quidem labore modi est voluptas culpa provident soluta laborum dolorum, atque quasi sit harum sed alias suscipit minima? Dolor eaque iure delectus voluptatibus iste nihil tempore.</p>
+        <div class="news_text">
+          <div class="news_content">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit dolore obcaecati iusto similique repellendus quo autem in facilis vitae quidem labore modi est voluptas culpa provident soluta laborum dolorum, atque quasi sit harum sed alias suscipit minima? Dolor eaque iure delectus voluptatibus iste nihil tempore.</p>
+          </div>
+          <div class="flex">
+            <div class="date">
+              <p>24 June 2024</p>
+            </div>
+            <div class="see_more btn main_btn">See More</div>
+          </div>
         </div>
-        <div class="date">
-          <p>24 June 2024</p>
-        </div>
-        <div class="see_more btn main_btn">See More</div>
       </div>
-    </div>
 
   </section>
 </main>
