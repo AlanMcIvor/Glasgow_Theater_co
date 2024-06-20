@@ -70,6 +70,7 @@ main {
   max-width: 1450px;
   margin: auto;
   background-color: #efefef;
+  overflow-x: hidden;
 }
 
 ul {

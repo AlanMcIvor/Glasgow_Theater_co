@@ -1,18 +1,39 @@
-const button = document.querySelectorAll("[data-carousel-button]");
+// carousel.js
+document.addEventListener("DOMContentLoaded", () => {
+  const slides = document.querySelectorAll("[data-slides] .slide");
+  let currentIndex = 0;
+  const intervalTime = 3500; // Time in milliseconds for auto-play interval
+  let autoPlayInterval;
 
-button.forEach((button) => {
-  button.addEventListener("click", function () {
-    const offset = button.dataset.carouselButton === "next" ? 1 : -1;
-    const slides = button
-      .closest("[data-carousel]")
-      .querySelector("[data-slides]");
+  function showSlide(index) {
+    slides.forEach((slide, i) => {
+      slide.style.opacity = i === index ? "1" : "0";
+      if (i === index) {
+        slide.setAttribute("data-active", "");
+      } else {
+        slide.removeAttribute("data-active");
+      }
+    });
+  }
 
-    const activeSlide = slides.querySelector("[data-active]");
-    let newIndex = [...slides.children].indexOf(activeSlide) + offset;
-    if (newIndex < 0) newIndex = slides.children.length - 1;
-    if (newIndex >= slides.children.length) newIndex = 0;
+  function nextSlide() {
+    currentIndex = (currentIndex + 1) % slides.length;
+    showSlide(currentIndex);
+  }
 
-    slides.children[newIndex].dataset.active = true;
-    delete activeSlide.dataset.active;
+  // Start the auto-play
+  autoPlayInterval = setInterval(nextSlide, intervalTime);
+
+  // Optional: Stop auto-play on hover and restart on mouse leave
+  const carousel = document.querySelector(".carousel");
+  carousel.addEventListener("mouseover", () => {
+    clearInterval(autoPlayInterval);
   });
+
+  carousel.addEventListener("mouseleave", () => {
+    autoPlayInterval = setInterval(nextSlide, intervalTime);
+  });
+
+  // Initial display
+  showSlide(currentIndex);
 });
