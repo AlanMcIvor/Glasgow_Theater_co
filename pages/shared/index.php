@@ -105,11 +105,11 @@ require "./includes/header.php"
           <div class="news_content">
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit dolore obcaecati iusto similique repellendus quo autem in facilis vitae quidem labore modi est voluptas culpa provident soluta laborum dolorum, atque quasi sit harum sed alias suscipit minima? Dolor eaque iure delectus voluptatibus iste nihil tempore.</p>
           </div>
-          <div class="flex">
+          <div class="flex news_">
             <div class="date">
               <p>24 June 2024</p>
             </div>
-            <div class="see_more btn main_btn">See More</div>
+            <div class="see_more">See More</div>
           </div>
         </div>
       </div>
@@ -120,11 +120,11 @@ require "./includes/header.php"
           <div class="news_content">
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit dolore obcaecati iusto similique repellendus quo autem in facilis vitae quidem labore modi est voluptas culpa provident soluta laborum dolorum, atque quasi sit harum sed alias suscipit minima? Dolor eaque iure delectus voluptatibus iste nihil tempore.</p>
           </div>
-          <div class="flex">
+          <div class="flex news_">
             <div class="date">
               <p>24 June 2024</p>
             </div>
-            <div class="see_more btn main_btn">See More</div>
+            <div class="see_more">See More</div>
           </div>
         </div>
       </div>
@@ -135,11 +135,11 @@ require "./includes/header.php"
           <div class="news_content">
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit dolore obcaecati iusto similique repellendus quo autem in facilis vitae quidem labore modi est voluptas culpa provident soluta laborum dolorum, atque quasi sit harum sed alias suscipit minima? Dolor eaque iure delectus voluptatibus iste nihil tempore.</p>
           </div>
-          <div class="flex">
+          <div class="flex news_">
             <div class="date">
               <p>24 June 2024</p>
             </div>
-            <div class="see_more btn main_btn">See More</div>
+            <div class="see_more">See More</div>
           </div>
         </div>
       </div>
@@ -155,30 +155,31 @@ require "./includes/header.php"
         <div class="get_involved_img">
           <img src="../../assets/images/involved_img_1.png" alt="An image of a lady with a white top">
         </div>
-        <button type="button" class="get_involved_btn btn main_btn">See More</button>
+        <button type="button" class="get_involved_btn btn main_btn"><span class="btn_txt">What's On</span><i class="fa-solid fa-arrow-right"></i></button>
       </div>
       <div class="get_involved_card">
         <div class="get_involved_img">
           <img src="../../assets/images/involved_img_2.png" alt="An image of a lady and a man in an embrace">
         </div>
-        <button type="button" class="get_involved_btn btn main_btn">See More</button>
+        <button type="button" class="get_involved_btn btn main_btn"><span class="btn_txt">News</span><i class="fa-solid fa-arrow-right"></i></button>
       </div>
       <div class="get_involved_card">
         <div class="get_involved_img">
           <img src="../../assets/images/involved_img_3.png" alt="An image of a lady holding a candle holder">
         </div>
-        <button type="button" class="get_involved_btn btn main_btn">See More</button>
+        <button type="button" class="get_involved_btn btn main_btn"><span class="btn_txt">Events</span><i class="fa-solid fa-arrow-right"></i></button>
       </div>
       <div class="get_involved_card">
         <div class="get_involved_img">
           <img src="../../assets/images/involved_img_4.png" alt="An image of a lady and a man holding hands">
         </div>
-        <button type="button" class="get_involved_btn btn main_btn">See More</button>
+        <button type="button" class="get_involved_btn btn main_btn"><span class="btn_txt">Contact</span><i class="fa-solid fa-arrow-right"></i></button>
       </div>
     </div>
 
   </section>
 </main>
+
 
 <?php
 

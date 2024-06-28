@@ -83,7 +83,8 @@ body {
   z-index: 99;
   cursor: pointer;
 }
-.hero_info {
+.hero_info,
+.show_info {
   clip-path: polygon(11% 0, 100% 0%, 90% 100%, 0% 100%);
   position: absolute;
   top: 35%;
@@ -121,6 +122,15 @@ body {
   padding: 5px;
 }
 
+.news_details {
+  margin-top: 10px;
+}
+
+.see_more {
+  cursor: pointer;
+  color: blue;
+}
+
 .get_involved_card {
   position: relative;
 }
@@ -129,6 +139,33 @@ body {
   position: absolute;
   bottom: 45px;
   left: 10px;
+}
+
+.btn_txt {
+  margin-right: 10px;
+}
+
+.page_header {
+  background-color: var(--accent);
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.whats_on_container {
+  margin-top: 20px;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.show {
+  position: relative;
+  max-width: 100%;
+}
+
+.show_info {
+  left: 15%;
+  right: unset;
 }
 
 .footer {
