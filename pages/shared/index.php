@@ -1,6 +1,6 @@
 <?php
 
-include "./includes/header.php"
+require "./includes/header.php"
 
 ?>
 
@@ -145,46 +145,47 @@ include "./includes/header.php"
       </div>
 
   </section>
+
+  <section class="get_involved" aria-label="four cards which direct the user to each page">
+    <h3 class="title">Get Involved</h3>
+    <hr class="line">
+
+    <div class="get_involved_container flex">
+      <div class="get_involved_card">
+        <div class="get_involved_img">
+          <img src="../../assets/images/involved_img_1.png" alt="An image of a lady with a white top">
+        </div>
+        <button type="button" class="get_involved_btn btn main_btn">See More</button>
+      </div>
+      <div class="get_involved_card">
+        <div class="get_involved_img">
+          <img src="../../assets/images/involved_img_2.png" alt="An image of a lady and a man in an embrace">
+        </div>
+        <button type="button" class="get_involved_btn btn main_btn">See More</button>
+      </div>
+      <div class="get_involved_card">
+        <div class="get_involved_img">
+          <img src="../../assets/images/involved_img_3.png" alt="An image of a lady holding a candle holder">
+        </div>
+        <button type="button" class="get_involved_btn btn main_btn">See More</button>
+      </div>
+      <div class="get_involved_card">
+        <div class="get_involved_img">
+          <img src="../../assets/images/involved_img_4.png" alt="An image of a lady and a man holding hands">
+        </div>
+        <button type="button" class="get_involved_btn btn main_btn">See More</button>
+      </div>
+    </div>
+
+  </section>
 </main>
 
-<footer aria-label="footer" class="footer flex">
-  <div class="flex footer_left">
-    <div class="logo">
-      <img src="../../assets/icons/logo.png" alt="The glasgow theater company logo" />
-    </div>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, sed impedit corporis obcaecati quis at eaque modi nihil ad qui facere officia similique, necessitatibus incidunt?</p>
-  </div>
-  <div>
-    <h6 class="footer_title">Company</h6>
-    <div class="footer_list">
-      <ul><a class="footer_link" href="#">About</a></ul>
-      <ul><a class="footer_link" href="#">Features</a></ul>
-      <ul><a class="footer_link" href="#">Work</a></ul>
-      <ul><a class="footer_link" href="#">Careers</a></ul>
-    </div>
-  </div>
+<?php
 
-  <div>
-    <h6 class="footer_title">Help</h6>
-    <div class="footer_list">
-      <ul><a class="footer_link" href="#">Support</a></ul>
-      <ul><a class="footer_link" href="#">FAQ</a></ul>
-      <ul><a class="footer_link" href="#">Terms</a></ul>
-      <ul><a class="footer_link" href="#">Policy</a></ul>
-    </div>
-  </div>
-  <div>
-    <h6 class="footer_title">Newsletter</h6>
-    <div class="footer_form">
-      <form>
-        <input type="text" id="newsletter" name="newsletter" placeholder="Email Address:">
-        <button type="submit" class="btn main_btn">Subscribe</button>
-      </form>
+require "./includes/footer.php";
 
-    </div>
-</footer>
+?>
 
-<script src="../../js/mobileMenu.js"></script>
 <script src="../../js/carousel.js"></script>
 </body>
 
