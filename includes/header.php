@@ -51,25 +51,3 @@
         </div>
       </div>
     </header>
-
-    <main id="home_page">
-      <section class="home_hero">
-        <div class="home_text gutter">
-          <h1 class="home_title">Glasgow Theater Company</h1>
-          <hr />
-          <h4 class="subtitle">
-            Experience the magic of live performances in the heart of Glasgow.
-            Join us for unforgettable shows and events that will leave you in
-            awe.
-          </h4>
-          <div class="home_btns">
-            <a href="" class="btn primary_btn">What's On</a>
-            <a href="" class="btn secondary_btn">Learn More</a>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <script src="./js/mobileMenu.js"></script>
-  </body>
-</html>
