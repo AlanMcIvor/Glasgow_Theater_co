@@ -221,7 +221,7 @@ header {
   gap: 25px;
   max-width: 1400px;
   margin: auto;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .card {
@@ -268,10 +268,40 @@ header {
   border-radius: 50px;
 }
 
+/* newsletter */
+
+.newsletter {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px 10px;
+  margin-top: 2rem;
+}
+
+.newsletter_title {
+  margin-left: 173px;
+}
+
+.form_group {
+  display: flex;
+}
+
+#newsletterEmail {
+  padding: 5px 15px;
+  margin-right: 5px;
+}
+
 @media screen and (max-width: 1145px) {
+  .logo {
+    margin-left: 25px;
+  }
+
   .navbar .links,
   .navbar .btn {
     display: none;
+  }
+
+  .toggle_btn {
+    margin-right: 25px;
   }
 
   .navbar .toggle_btn {
@@ -297,6 +327,28 @@ header {
   }
 }
 
+@media screen and (max-width: 805px) {
+  .home_hero {
+    background-position: left;
+  }
+
+  .newsletter_title {
+    margin-left: unset;
+    text-align: center;
+    margin-inline: 25px;
+  }
+
+  .form_group {
+    display: flex;
+    justify-content: center;
+  }
+
+  #newsletterEmail {
+    padding: 5px 15px;
+    margin-right: 5px;
+  }
+}
+
 @media screen and (max-width: 576px) {
   .mobile_menu {
     left: 2rem;
@@ -305,11 +357,5 @@ header {
 
   .gutter {
     margin: 0 25px;
-  }
-}
-
-@media screen and (max-width: 805px) {
-  .home_hero {
-    background-position: left;
   }
 }
